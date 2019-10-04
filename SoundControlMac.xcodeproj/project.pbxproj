@@ -1,0 +1,619 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A89601932347CF28005A37B1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A89601922347CF28005A37B1 /* AppDelegate.swift */; };
+		A89601952347CF28005A37B1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A89601942347CF28005A37B1 /* ContentView.swift */; };
+		A89601982347CF28005A37B1 /* SoundControlMac.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A89601962347CF28005A37B1 /* SoundControlMac.xcdatamodeld */; };
+		A896019A2347CF2A005A37B1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A89601992347CF2A005A37B1 /* Assets.xcassets */; };
+		A896019D2347CF2A005A37B1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A896019C2347CF2A005A37B1 /* Preview Assets.xcassets */; };
+		A89601A02347CF2A005A37B1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A896019E2347CF2A005A37B1 /* Main.storyboard */; };
+		A89601AC2347CF2A005A37B1 /* SoundControlMacTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A89601AB2347CF2A005A37B1 /* SoundControlMacTests.swift */; };
+		A89601B72347CF2A005A37B1 /* SoundControlMacUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A89601B62347CF2A005A37B1 /* SoundControlMacUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A89601A82347CF2A005A37B1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A89601872347CF28005A37B1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A896018E2347CF28005A37B1;
+			remoteInfo = SoundControlMac;
+		};
+		A89601B32347CF2A005A37B1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A89601872347CF28005A37B1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A896018E2347CF28005A37B1;
+			remoteInfo = SoundControlMac;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A896018F2347CF28005A37B1 /* SoundControlMac.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SoundControlMac.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A89601922347CF28005A37B1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A89601942347CF28005A37B1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A89601972347CF28005A37B1 /* SoundControlMac.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SoundControlMac.xcdatamodel; sourceTree = "<group>"; };
+		A89601992347CF2A005A37B1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A896019C2347CF2A005A37B1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A896019F2347CF2A005A37B1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A89601A12347CF2A005A37B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A89601A22347CF2A005A37B1 /* SoundControlMac.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SoundControlMac.entitlements; sourceTree = "<group>"; };
+		A89601A72347CF2A005A37B1 /* SoundControlMacTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SoundControlMacTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A89601AB2347CF2A005A37B1 /* SoundControlMacTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundControlMacTests.swift; sourceTree = "<group>"; };
+		A89601AD2347CF2A005A37B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A89601B22347CF2A005A37B1 /* SoundControlMacUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SoundControlMacUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A89601B62347CF2A005A37B1 /* SoundControlMacUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundControlMacUITests.swift; sourceTree = "<group>"; };
+		A89601B82347CF2A005A37B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A896018C2347CF28005A37B1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A89601A42347CF2A005A37B1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A89601AF2347CF2A005A37B1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A89601862347CF28005A37B1 = {
+			isa = PBXGroup;
+			children = (
+				A89601912347CF28005A37B1 /* SoundControlMac */,
+				A89601AA2347CF2A005A37B1 /* SoundControlMacTests */,
+				A89601B52347CF2A005A37B1 /* SoundControlMacUITests */,
+				A89601902347CF28005A37B1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A89601902347CF28005A37B1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A896018F2347CF28005A37B1 /* SoundControlMac.app */,
+				A89601A72347CF2A005A37B1 /* SoundControlMacTests.xctest */,
+				A89601B22347CF2A005A37B1 /* SoundControlMacUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A89601912347CF28005A37B1 /* SoundControlMac */ = {
+			isa = PBXGroup;
+			children = (
+				A89601922347CF28005A37B1 /* AppDelegate.swift */,
+				A89601942347CF28005A37B1 /* ContentView.swift */,
+				A89601992347CF2A005A37B1 /* Assets.xcassets */,
+				A896019E2347CF2A005A37B1 /* Main.storyboard */,
+				A89601A12347CF2A005A37B1 /* Info.plist */,
+				A89601A22347CF2A005A37B1 /* SoundControlMac.entitlements */,
+				A89601962347CF28005A37B1 /* SoundControlMac.xcdatamodeld */,
+				A896019B2347CF2A005A37B1 /* Preview Content */,
+			);
+			path = SoundControlMac;
+			sourceTree = "<group>";
+		};
+		A896019B2347CF2A005A37B1 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				A896019C2347CF2A005A37B1 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		A89601AA2347CF2A005A37B1 /* SoundControlMacTests */ = {
+			isa = PBXGroup;
+			children = (
+				A89601AB2347CF2A005A37B1 /* SoundControlMacTests.swift */,
+				A89601AD2347CF2A005A37B1 /* Info.plist */,
+			);
+			path = SoundControlMacTests;
+			sourceTree = "<group>";
+		};
+		A89601B52347CF2A005A37B1 /* SoundControlMacUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A89601B62347CF2A005A37B1 /* SoundControlMacUITests.swift */,
+				A89601B82347CF2A005A37B1 /* Info.plist */,
+			);
+			path = SoundControlMacUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A896018E2347CF28005A37B1 /* SoundControlMac */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A89601BB2347CF2A005A37B1 /* Build configuration list for PBXNativeTarget "SoundControlMac" */;
+			buildPhases = (
+				A896018B2347CF28005A37B1 /* Sources */,
+				A896018C2347CF28005A37B1 /* Frameworks */,
+				A896018D2347CF28005A37B1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SoundControlMac;
+			productName = SoundControlMac;
+			productReference = A896018F2347CF28005A37B1 /* SoundControlMac.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A89601A62347CF2A005A37B1 /* SoundControlMacTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A89601BE2347CF2A005A37B1 /* Build configuration list for PBXNativeTarget "SoundControlMacTests" */;
+			buildPhases = (
+				A89601A32347CF2A005A37B1 /* Sources */,
+				A89601A42347CF2A005A37B1 /* Frameworks */,
+				A89601A52347CF2A005A37B1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A89601A92347CF2A005A37B1 /* PBXTargetDependency */,
+			);
+			name = SoundControlMacTests;
+			productName = SoundControlMacTests;
+			productReference = A89601A72347CF2A005A37B1 /* SoundControlMacTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A89601B12347CF2A005A37B1 /* SoundControlMacUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A89601C12347CF2A005A37B1 /* Build configuration list for PBXNativeTarget "SoundControlMacUITests" */;
+			buildPhases = (
+				A89601AE2347CF2A005A37B1 /* Sources */,
+				A89601AF2347CF2A005A37B1 /* Frameworks */,
+				A89601B02347CF2A005A37B1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A89601B42347CF2A005A37B1 /* PBXTargetDependency */,
+			);
+			name = SoundControlMacUITests;
+			productName = SoundControlMacUITests;
+			productReference = A89601B22347CF2A005A37B1 /* SoundControlMacUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A89601872347CF28005A37B1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+				ORGANIZATIONNAME = "Olga Pavluchenko";
+				TargetAttributes = {
+					A896018E2347CF28005A37B1 = {
+						CreatedOnToolsVersion = 11.0;
+					};
+					A89601A62347CF2A005A37B1 = {
+						CreatedOnToolsVersion = 11.0;
+						TestTargetID = A896018E2347CF28005A37B1;
+					};
+					A89601B12347CF2A005A37B1 = {
+						CreatedOnToolsVersion = 11.0;
+						TestTargetID = A896018E2347CF28005A37B1;
+					};
+				};
+			};
+			buildConfigurationList = A896018A2347CF28005A37B1 /* Build configuration list for PBXProject "SoundControlMac" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A89601862347CF28005A37B1;
+			productRefGroup = A89601902347CF28005A37B1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A896018E2347CF28005A37B1 /* SoundControlMac */,
+				A89601A62347CF2A005A37B1 /* SoundControlMacTests */,
+				A89601B12347CF2A005A37B1 /* SoundControlMacUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A896018D2347CF28005A37B1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A89601A02347CF2A005A37B1 /* Main.storyboard in Resources */,
+				A896019D2347CF2A005A37B1 /* Preview Assets.xcassets in Resources */,
+				A896019A2347CF2A005A37B1 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A89601A52347CF2A005A37B1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A89601B02347CF2A005A37B1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A896018B2347CF28005A37B1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A89601952347CF28005A37B1 /* ContentView.swift in Sources */,
+				A89601982347CF28005A37B1 /* SoundControlMac.xcdatamodeld in Sources */,
+				A89601932347CF28005A37B1 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A89601A32347CF2A005A37B1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A89601AC2347CF2A005A37B1 /* SoundControlMacTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A89601AE2347CF2A005A37B1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A89601B72347CF2A005A37B1 /* SoundControlMacUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A89601A92347CF2A005A37B1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A896018E2347CF28005A37B1 /* SoundControlMac */;
+			targetProxy = A89601A82347CF2A005A37B1 /* PBXContainerItemProxy */;
+		};
+		A89601B42347CF2A005A37B1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A896018E2347CF28005A37B1 /* SoundControlMac */;
+			targetProxy = A89601B32347CF2A005A37B1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A896019E2347CF2A005A37B1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A896019F2347CF2A005A37B1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A89601B92347CF2A005A37B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A89601BA2347CF2A005A37B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		A89601BC2347CF2A005A37B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = SoundControlMac/SoundControlMac.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"SoundControlMac/Preview Content\"";
+				DEVELOPMENT_TEAM = P2G4M3BC76;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = SoundControlMac/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = com.pavluchenko.SoundControlMac;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		A89601BD2347CF2A005A37B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = SoundControlMac/SoundControlMac.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"SoundControlMac/Preview Content\"";
+				DEVELOPMENT_TEAM = P2G4M3BC76;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = SoundControlMac/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = com.pavluchenko.SoundControlMac;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		A89601BF2347CF2A005A37B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = P2G4M3BC76;
+				INFOPLIST_FILE = SoundControlMacTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = com.pavluchenko.SoundControlMacTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SoundControlMac.app/Contents/MacOS/SoundControlMac";
+			};
+			name = Debug;
+		};
+		A89601C02347CF2A005A37B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = P2G4M3BC76;
+				INFOPLIST_FILE = SoundControlMacTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = com.pavluchenko.SoundControlMacTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SoundControlMac.app/Contents/MacOS/SoundControlMac";
+			};
+			name = Release;
+		};
+		A89601C22347CF2A005A37B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = P2G4M3BC76;
+				INFOPLIST_FILE = SoundControlMacUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.pavluchenko.SoundControlMacUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = SoundControlMac;
+			};
+			name = Debug;
+		};
+		A89601C32347CF2A005A37B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = P2G4M3BC76;
+				INFOPLIST_FILE = SoundControlMacUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.pavluchenko.SoundControlMacUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = SoundControlMac;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A896018A2347CF28005A37B1 /* Build configuration list for PBXProject "SoundControlMac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A89601B92347CF2A005A37B1 /* Debug */,
+				A89601BA2347CF2A005A37B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A89601BB2347CF2A005A37B1 /* Build configuration list for PBXNativeTarget "SoundControlMac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A89601BC2347CF2A005A37B1 /* Debug */,
+				A89601BD2347CF2A005A37B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A89601BE2347CF2A005A37B1 /* Build configuration list for PBXNativeTarget "SoundControlMacTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A89601BF2347CF2A005A37B1 /* Debug */,
+				A89601C02347CF2A005A37B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A89601C12347CF2A005A37B1 /* Build configuration list for PBXNativeTarget "SoundControlMacUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A89601C22347CF2A005A37B1 /* Debug */,
+				A89601C32347CF2A005A37B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		A89601962347CF28005A37B1 /* SoundControlMac.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				A89601972347CF28005A37B1 /* SoundControlMac.xcdatamodel */,
+			);
+			currentVersion = A89601972347CF28005A37B1 /* SoundControlMac.xcdatamodel */;
+			path = SoundControlMac.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = A89601872347CF28005A37B1 /* Project object */;
+}
