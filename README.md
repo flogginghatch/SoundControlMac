@@ -1,0 +1,1 @@
+Mute sound in internal speakers Mac OS after you login
